@@ -1,0 +1,222 @@
+@importurl('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root {  
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    height: 12vh;
+    background-color: #2874f0;
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Ubuntu', sans-serif;
+}
+
+nav{ 
+    display: flex;
+}
+
+.container{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+main .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container h3 {
+    padding: 10px;
+    position: relative;
+    margin-left: 24px;
+    font-weight: bold;
+}
+
+.container .bottle{
+    position: absolute;
+    top: 900px;
+    font-size: 19px;
+    font-weight: bold;
+    left: 20px;
+}
+
+.container .decor{
+    font-size: 20px;
+    font-weight: bold;
+    top: 950px;
+    left: 50px;
+    position: relative;
+}
+
+.container .mat{
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
+    top: 1180px;
+    left: 50px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+
+  }
+  
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding-top: 20px;
+    overflow-x: auto;
+    border-bottom: 2px solid black;
+}
+
+.slider{
+    overflow: hidden;
+    margin: 12px auto;
+    width: 80vw;
+}
+
+.slider img{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+    height: 45vh;
+    width: 87vw;
+    margin-left: 0px;
+}
+
+.card{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 15vw;
+    margin-left: 22px;
+    min-width: 100px;
+}
+
+.card h2{
+    font-family:'Ubuntu', sans-serif;
+    font-size: medium;
+}
+
+.h2{
+    max-width: 100px;
+}
+
+.hr{
+    width: 200px;
+}
+
+.card-item{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card-item img{
+    width: 11vw;
+    height: 16vh;
+}
+.class{
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0;
+    height: 6vh;
+    
+}
+
+.class img {
+    margin-top: 24px;
+    width: 12vw;
+    margin-left: 7px;
+    height: 4vh;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 9vh;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.container{
+    min-height: calc(100vh - 50px - 12vh);
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+}
+
+.search input{
+    display: flex;
+      align-items: center;
+      min-width: 15vw;
+      height: 3vh;
+      border-radius: 10px;
+      border-color: black;
+      margin-top: 24px;
+
+}
+
+.btn{
+    margin-top: 27px;
+    height: 3vh;
+    margin-left: 15px;
+}
+
+ 
+.search input{
+    width: 30vw;
+}
+nav ul li a{
+    color: chartreuse;
+    font-style: bold;
+    height: 66vh;
+    background-color: #2874f0;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(214, 255, 12);
+    height: 66vh;
+    font-weight: bold;
+    background-color: #2874f0;
+    text-decoration: none;}
+
+header{
+    height: 10vh;
+    background-color:#2874f0;
+    border: 1px solid red;
+}
+
+
+/*@media screen and (min-width: 1000px) {
+    .cards{
+        padding-bottom: 1vw;
+    }
+  }*/
+  

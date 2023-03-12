@@ -1,0 +1,28 @@
+.text-center{
+    text-align: center;
+}
+
+
+
+.btn:hover{
+    font-weight: bold;
+    background-color: #2874f0;
+    color:white ;
+    width: 12vw;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.my-2{
+    margin: 26px 0;
+}
+
+.my-3{
+    font-style: italic;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.text-center{
+    text-align: center;
+}
